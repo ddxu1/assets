@@ -1,0 +1,305 @@
+:: StoryTitle
+Red Rising: The Evolution of Female Agency
+
+:: StoryData
+{
+  "ifid": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Start"
+}
+
+:: Start
+You are about to experience the story of the Little Red Riding Hood across four historical eras, each reimagining female agency in different ways.
+
+This interactive game will demonstrate how storytelling and literature has shaped and restricted female autonomy over the years.
+
+The actions you choose will highlight how the story has evolved overtime, and the U-shaped curve representing the agency of Little Red.
+
+[[Begin Journey->Act1Intro]]
+
+:: Act1Intro
+**Act 1: Oral Tradition (Pre-1697)**
+
+In the folk versions that were told by peasant women, Red Riding Hood is clever and sexually autonomous. She navigates dangerous situations using her intellect, instead of choosing to submit. 
+
+[[Enter the forest->Act1Choice1]]
+
+:: Act1Choice1
+You carry wine and bread to your grandmother. At the forest crossroads, a wolf approaches you, asking where you're going.
+
+He tries to make conversation with you, complimenting your appearance. Yet, you sense hunger in his eyes. You can't shake the feeling that something is wrong. 
+
+You see two paths in front of you. A path of needles and a path of pins. The path of needles is longer but safer. The path of pins is quicker but exposed.
+
+What do you do?
+
+[[Tell him a false destination and take the needle path->Act1Choice2Good]]
+[[Flirt and distract him, then run toward the pins path->Act1Choice2Bold]]
+[[Answer honestly->Act1Choice2Naive]]
+
+:: Act1Choice2Good
+You send him toward the wrong village and take the longer route. You notice fresh footprints outside your grandmother's cottage.
+
+The door is slightly open. Inside, something moves beneath her bedsheets.
+
+[[Pretend to need to use the restroom and escape through the back->Act1Escape]]
+[[Observe "grandmother" more carefully ->Act1Clever]]
+
+:: Act1Choice2Bold
+You laugh at his compliments and run away while he's distracted. At the cottage, you find that the wolf has arrived first. Your grandmother is no where to be found.
+
+He invites you to join him in the bed.
+
+[[Begin seducing the wolf, then claim you need to relieve yourself outside->Act1Escape]]
+[[Refuse and grab the woodcutter's axe by the door->Act1Fight]]
+
+:: Act1Choice2Naive
+You tell him exactly where you're going. He arrives first, devours your grandmother, and waits in her bed for you.
+
+When you arrive, something feels wrong. Grandmother's voice is too deep.
+
+[[Ask questions to confirm your suspicion, then run away->Act1Escape]]
+[[Trust your instincts and leave immediately->Act1Escape]]
+
+:: Act1Clever
+"What big eyes you have," you say, while scanning the room. You spot the back door.
+
+He flashes his teeth, while saying, "The better to see you with".
+
+[[Run to the back door->Act1Escape]]
+
+:: Act1Fight
+You grab the axe and swing. You free your true grandmother from his belly.
+
+You survive through violence and courage.
+
+[[Reflect->Act1Reflect]]
+
+:: Act1Escape
+Once outside, you run.
+
+You survive through deception and bodily autonomy.
+
+Your grandmother may be lost, but you live.
+
+[[Reflect->Act1Reflect]]
+
+:: Act1Reflect
+**Act 1 Reflection: Oral Tradition**
+
+In folk versions, you had multiple survival strategies, including deception, violence, and bodily autonomy. The stories emphasized lessons of survival and not morality.
+
+Female agency was high because survival mattered more than obedience.
+
+This was the baseline: before moralists like Grimm and Perrault rewrote the tale, Little Red could save herself.
+
+[[Continue to Act 2->Act2Intro]]
+
+:: Act2Intro
+**Act 2: Literary Moralization (1697–Early 1800s)**
+
+Perrault and the early Grimms transformed this story into a cautionary tale. Red Riding Hood becomes a child whose disobedience leads to punishment.
+
+Female agency is erased.
+
+[[Enter the dangerous forest->Act2Choice1]]
+
+:: Act2Choice1
+Your mother gives you explicit instructions: stay on the path, don't speak to strangers, and go directly to grandmother's house.
+
+In the forest, a wolf approaches. He is charming and persuasive.
+
+What do you do?
+
+[[Refuse to speak to him->Act2Obey]]
+[[Speak politely but continue on the path->Act2Polite]]
+(text-style:"strike")[Use wit to mislead him]
+(text-style:"strike")[Recognize sexual danger and flee]
+
+:: Act2Obey
+You ignore him and continue along the path.
+
+During your walk, you see beauitful flowers.
+
+[[Pick flowers->Act2Flowers]]
+
+:: Act2Polite
+You answer his questions politely, as a girl should. He suggests you pick flowers for grandmother.
+
+You obey his kind suggestion. You don't realize he's racing ahead.
+
+[[Pick flowers->Act2Flowers]]
+
+:: Act2Flowers
+You pick the flowers and continue home. By the time you arrive, the wolf has devoured grandmother and waits in her bed. You approach, confused by her appearance.
+
+"What big teeth you have, Grandmother."
+
+"The better to eat you with!"
+
+[[Scream for help->Act2Eaten]]
+(text-style:"strike")[Fight back]
+(text-style:"strike")[Escape through the back]
+
+:: Act2Eaten
+The wolf devours you. Your disobedience has led to your death.
+
+//Perrault's moral: Young ladies must obey their mothers and never trust strangers.//
+
+In some versions, a huntsman arrives later to cut you free. You become an object to be rescued.
+
+[[Reflect->Act2Reflect]]
+
+:: Act2Reflect
+**Act 2 Reflection: Literary Moralization**
+
+Your agency was nearly eliminated. Choices that existed in folk versions were removed by moralists who prioritized obedience over survival.
+
+The grayed-out options represent strategies erased during moralization. Female sexuality, cunning, and self-rescue were sanitized from literature.
+
+This era represents experienced the most loss in agency. Your role is passive victim, and your outcome depends entirely on male intervention.
+
+[[Continue to Act 3->Act3Intro]]
+
+:: Act3Intro
+**Act 3: Cooperative Red Riding Hood (Mid-1800s)**
+
+Later Grimm revisions and Victorian adaptations restored limited agency through "acceptable" feminine virtues. These included cooperation with male saviors and cleverness without sexuality.
+
+You can contribute to your rescue, but cannot independently achieve it.
+
+[[Enter the reformed forest->Act3Choice1]]
+
+:: Act3Choice1
+You're older now. You have become cautious and clever. This time, when the wolf stops you, you remember past warnings.
+
+You answer carefully, giving half-truths. Again. he suggests picking flowers; you agree but stay alert.
+
+What do you do?
+
+[[Pick flowers quickly->Act3Quick]]
+
+:: Act3Quick
+You gather flowers with great haste and make your way to the college. You hear strange sounds inside.
+
+You peek through the window and see the wolf in grandmother's bed.
+
+[[Fetch the village huntsman->Act3Huntsman]]
+[[Alert your neighbors->Act3Alert]]
+
+:: Act3Huntsman
+You find the huntsman in the forest chopping wood. Together, you return to the cottage. He cuts open the wolf while you hand him stones to fill the wolf's belly.
+
+Your grandmother is saved. You contributed meaningfully but required male support to complete the rescue.
+
+[[Reflect->Act3Reflect]]
+
+:: Act3Alert
+Your shouts bring your neighbors running. Together you surround the cottage. The huntsman cuts open the wolf while you comfort your newly-freed grandmother.
+
+Cooperation saved you both. Your cleverness and community bonds mattered.
+
+[[Reflect->Act3Reflect]]
+
+:: Act3Reflect
+**Act 3 Reflection: Cooperation**
+
+Your agency increased but is bounded by a reliance on others. You could be clever and brave, but only when cooperating with male protectors or community members.
+
+Sexual agency remains absent. Violence is outsourced. 
+
+You're evolving from victim to partner.
+
+[[Continue to Act 4->Act4Intro]]
+
+:: Act4Intro
+**Act 4: Feminist Reclamation & Autonomy (Late 1900s)**
+
+Angela Carter's //The Company of Wolves// and the film //Freeway// restore full agency through gothic sexuality, violence, and subversion. Red Riding Hood controls her narrative, her body, and her fate. She can seduce, kill, or reimagine the wolf entirely. All choices are hers.
+
+[[Enter the reclaimed forest->Act4Choice1]]
+
+:: Act4Choice1
+You're an adult now, traveling through a dangerous world. You encounter the wolf. The wolf is a man; handsome, predatory, and magnetic. He offers you a ride.
+
+You understand what he wants. You also understand your power.
+
+What do you do?
+
+[[Play along->Act4Seduce]]
+[[Reject him->Act4Arm]]
+[[Rewrite the narrative->Act4Rewrite]]
+
+:: Act4Seduce
+You match his hunger with your own. In the bedroom, you're in control.
+
+"Who's afraid of who?" you ask.
+
+When the night ends, you walk away alive and transformed. You chose your own terms.
+
+[[Reflect->Act4Reflect]]
+
+:: Act4Arm
+You see through his masculine charm. When he attacks, you're ready with mace.
+
+You defend yourself with violence. You don't wait for rescue.
+
+You survive because you refused to be the victim.
+
+[[Reflect->Act4Reflect]]
+
+:: Act4Rewrite
+You recognize the story that has been told for centuries about you.
+
+You decide that today will not be your last. You leave the forest.
+
+You survive because you chose to rewrite the narrative.
+
+[[Reflect->Act4Reflect]]
+
+
+:: Act4Reflect
+**Act 4 Reflection: Feminist Reclamation**
+
+Your agency is fully restored; even more than in the folk tradition. You can embrace sexuality, enact violence, or reject the narrative entirely.
+
+You transcend the oral tradition, armed with feminist ideals.
+
+Little Red has been reclaimed, in terms of female bodily autonomy, violence, desire, and story itself.
+
+[[View Conclusion->Conclusion]]
+
+:: Conclusion
+**The Evolution of Female Agency in Little Red Riding Hood**
+
+You've experienced how the same tale shifted across centuries:
+
+Act 1 (Oral): High agency through practical survival strategies
+Act 2 (Literary): Total agency loss through moralization  
+Act 3 (Cooperative): Partial recovery within acceptable bounds
+Act 4 (Feminist): Full autonomy returns
+
+Your choices across these acts prove that storytelling is inherently political.
+
+Who tells the story determines which morals survive.
+
+**Thank you for playing.**
+[[View Sources->WorksCited]]
+[[Restart->Start]]
+
+:: WorksCited
+
+Works Cited
+
+Primary Sources
+* "The Story of Grandmother"
+* Perrault, Charles. “Le Petit Chaperon Rouge”
+* Grimm, Jacob and Wilhelm. "Little Red Cap"
+* Carter, Angela. “The Company of Wolves"
+* Bright, Matthew. "Freeway"
+
+Secondary Scholarly Sources
+* Cheng, Hiu Yan. The Liberation of the Heroine in Red Riding Hood: A Study on Feminist and Postfeminist Discourses. Master’s thesis, Lingnan University, 2015.
+* Heinecke, Abigail. Empowering the Hood: Feminist Ideologies in Contemporary Adaptations of Little Red Riding Hood. Master’s thesis, Western Illinois University, 2024.
+* Marshall, Elizabeth. “Stripping for the Wolf: Rethinking Representations of Gender in Children’s Literature.” Reading Research Quarterly, vol. 39, no. 3, 2004, pp. 256–70.
